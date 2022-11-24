@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+
+const TextStyle Style_nice = TextStyle(
+  color: Color.fromRGBO(0, 0, 0, 0.8),//색상
+  fontFamily: 'Anton',
+  fontSize: 25, //글자 크기
+  fontStyle: FontStyle.normal,
+  fontWeight: FontWeight.bold, //굵기
+  decoration: TextDecoration.none,  //뭔진 모르는데 있어야함.
+);
+const double Width_size = 126;
+const double Height_size = 42;
